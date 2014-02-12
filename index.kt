@@ -141,7 +141,8 @@ trace syscalls:sys_exit_* {
   }
 }
 
-trace_end {
-  histogram(s)
+tick-2s {
+  ansi.clear_screen()
   printf("\n")
+  histogram(s)
 }
