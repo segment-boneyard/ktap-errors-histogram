@@ -1,7 +1,6 @@
+# ktap-error-histogram
 
-# error.kt
-
-  Trace errors with ktap.
+  ktap syscall error histogram.
 
 ```
                           value ------------- Distribution ------------- count
